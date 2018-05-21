@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Keith Mascarenhas"
   avatar           : "/assets/images/logo/bio.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A repo of my learnings."
+  bio              : "Just another Data Enthusiast!"
   location         : "San Francisco Bay Area, CA"
   email            :
   uri              :
@@ -111,7 +111,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "keithxm"
   foursquare       :
   github           : "datageekinme"
   gitlab           :
