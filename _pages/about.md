@@ -8,7 +8,7 @@ header:
 ---
 
 ## Professional Summary:
----
+
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
 Intelligence design and development experience, both technically focused and customer oriented**
 
@@ -25,7 +25,7 @@ Intelligence design and development experience, both technically focused and cus
   * Specialties: Dimensional Modelling, Analytical and problem solving skills, Data warehousing and Business Intelligence, SQL, ETL, Data Integration, Data Replication
 
 ## Technical Skills:
----
+
 ### Big Data Platforms:
   * Hortonworks Data Platform (HDP) 2.x
   * Cloudera Enterprise Data Hub (CDH) 5.x
@@ -93,11 +93,11 @@ Intelligence design and development experience, both technically focused and cus
   * CentOS 6.x/7.x
 
 ## Academic Details:
----
+
   * Bachelor of Engineering, Computer Science and Engineering – 2005 Visveswaraiah Technological University – Belgaum, Karnataka, India
 
 ## Professional Training/Certification:
----
+
 
 | Certification Name | Type | Obtained |
 |------------------------------------------------------------------|---------------|---------------|
