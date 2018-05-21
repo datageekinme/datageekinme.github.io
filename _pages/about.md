@@ -2,8 +2,10 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/assets/images/logo/cover-photo.png"
+  image: "/assets/images/logo/cover-photo.png =1200x50"
 ---
+
+
 
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
 Intelligence design and development experience, both technically focused and customer oriented.**
