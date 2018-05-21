@@ -5,24 +5,28 @@ header:
   image: "/assets/images/logo/cover-photo.png"
 ---
 
-Experience in Analysis, Design, Development and unit testing in Data warehousing and Business Intelligence applications.
+**Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
+Intelligence design and development experience, both technically focused and customer oriented. **
 
-Experience in insurance, healthcare and technology sector
 
-Strong Client facing and communication skills (both verbal and written)
+  . Experience in Analysis, Design, Development and unit testing in Data warehousing and Business Intelligence applications.
 
-Good knowledge and experience in implementing practices in Software Development Life Cycle (SDLC)
+  . Experience in insurance, healthcare and technology sector
 
-Strong knowledge in SQL and PL/SQL
+  . Strong Client facing and communication skills (both verbal and written)
 
-Experience in data modeling using the dimensional model techniques and tools such as Erwin data modeler
+  . Good knowledge and experience in implementing practices in Software Development Life Cycle (SDLC)
 
-Experience in using Cognos DecisionStream, Informatica PowerCenter, Oracle Data Integrator (ODI) and Oracle Warehouse Builder (OWB) for Extraction, Transformation and Loading of data into Data Marts
+  . Strong knowledge in SQL and PL/SQL
 
-Experience in using data replication tools like Oracle GoldenGate
+  . Experience in data modeling using the dimensional model techniques and tools such as Erwin data modeler
 
-Experience in designing, developing and maintaining Cognos PowerPlay cubes, Cognos ReportNet reports and Oracle BI (OBIEE) Reports and Dashboards
+  . Experience in using Cognos DecisionStream, Informatica PowerCenter, Oracle Data Integrator (ODI) and Oracle Warehouse Builder (OWB) for Extraction, Transformation and Loading of data into Data Marts
 
-Experience with different databases including Oracle, SQL Server 2005 and MS Access
+  . Experience in using data replication tools like Oracle GoldenGate
 
-Specialties: Dimensional Modelling, Analytical and problem solving skills, Data warehousing and Business Intelligence, SQL, ETL, Data Integration, Data Replication
+  . Experience in designing, developing and maintaining Cognos PowerPlay cubes, Cognos ReportNet reports and Oracle BI (OBIEE) Reports and Dashboards
+
+  . Experience with different databases including Oracle, SQL Server 2005 and MS Access
+  
+  . Specialties: Dimensional Modelling, Analytical and problem solving skills, Data warehousing and Business Intelligence, SQL, ETL, Data Integration, Data Replication
