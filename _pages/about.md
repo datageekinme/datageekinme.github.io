@@ -6,7 +6,7 @@ header:
 ---
 
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
-Intelligence design and development experience, both technically focused and customer oriented. **
+Intelligence design and development experience, both technically focused and customer oriented.**
 
 
   . Experience in Analysis, Design, Development and unit testing in Data warehousing and Business Intelligence applications.
@@ -28,5 +28,5 @@ Intelligence design and development experience, both technically focused and cus
   . Experience in designing, developing and maintaining Cognos PowerPlay cubes, Cognos ReportNet reports and Oracle BI (OBIEE) Reports and Dashboards
 
   . Experience with different databases including Oracle, SQL Server 2005 and MS Access
-  
+
   . Specialties: Dimensional Modelling, Analytical and problem solving skills, Data warehousing and Business Intelligence, SQL, ETL, Data Integration, Data Replication
