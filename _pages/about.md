@@ -2,7 +2,8 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/assets/images/logo/banner.png"
+  overlay_image: "/assets/images/logo/banner.png"
+  excerpt: "About Me"
 ---
 
 
