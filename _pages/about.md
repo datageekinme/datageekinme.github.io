@@ -3,6 +3,8 @@ title: "About"
 permalink: /about/
 header:
   image: "/assets/images/logo/banner.png"
+layout: single
+classes: wide
 ---
 
 
