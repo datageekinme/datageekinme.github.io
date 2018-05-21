@@ -6,6 +6,7 @@ header:
 ---
 
 
+=============
 
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
 Intelligence design and development experience, both technically focused and customer oriented.**
