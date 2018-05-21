@@ -7,7 +7,7 @@ header:
   excerpt: "A Data Enthusiast!!!"
 ---
 
-### Professional Summary:
+## Professional Summary:
 ---
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
 Intelligence design and development experience, both technically focused and customer oriented**
@@ -24,15 +24,15 @@ Intelligence design and development experience, both technically focused and cus
   * Experience with different databases including Oracle, SQL Server 2005 and MS Access
   * Specialties: Dimensional Modelling, Analytical and problem solving skills, Data warehousing and Business Intelligence, SQL, ETL, Data Integration, Data Replication
 
-### Technical Skills:
+## Technical Skills:
 ---
-#### Big Data Platforms:
+### Big Data Platforms:
   * Hortonworks Data Platform (HDP) 2.x
   * Cloudera Enterprise Data Hub (CDH) 5.x
   * Azure HDInsights (HDI) 3.4/3.6
   * Amazon Elastic MapReduce (EMR) 5.x
 
-#### Big Data Technologies:
+### Big Data Technologies:
   * Hadoop 2.x
   * Hive 1.x/2.x
   * Sqoop 1.x
@@ -40,12 +40,12 @@ Intelligence design and development experience, both technically focused and cus
   * Kafka 0.x/1.x
   * Zeppelin 0.7.3
 
-#### Cloud Platforms:
+### Cloud Platforms:
   * Amazon Web Services (AWS)
   * Microsoft Azure
   * Google Cloud Platform (GCP)
 
-#### ETL Tools:
+### ETL Tools:
   * Unifi Software 1.x/2.x
   * Informatica PowerCenter 8.x/9.x
   * Oracle Data Integrator (ODI) 11g/12c
@@ -54,7 +54,7 @@ Intelligence design and development experience, both technically focused and cus
   * Cognos DecisionStream 6.5/7.1
   * Dell Boomi Atomsphere
 
-#### BI Tools:
+### BI Tools:
   * PowerBI Service/Desktop
   * Tableau Server/Desktop 8.x/9.x/10.x
   * Oracle BI Enterprise Edition 10g/11g
@@ -62,7 +62,7 @@ Intelligence design and development experience, both technically focused and cus
   * Cognos ReportNet 1.1
   * Cognos PowerPlay Transformer 7.3
 
-#### Databases:
+### Databases:
   * Azure SQL Database
   * Amazon Redshift
   * PostgreSQL
@@ -71,7 +71,7 @@ Intelligence design and development experience, both technically focused and cus
   * MySQL
   * MS Access
 
-#### Programming Languages:
+### Programming Languages:
   * Python
   * Scala
   * R
@@ -79,24 +79,24 @@ Intelligence design and development experience, both technically focused and cus
   * Java
   * Shell scripting
 
-#### Other BI Apps Related Tools:
+### Other BI Apps Related Tools:
   * Oracle DAC 10g/11g
   * Oracle BI Apps 7.9.x/11.1.x
   * Oracle GoldenGate 10g/11g
   * Oracle Exalytics
 
-#### Operating Systems:
+### Operating Systems:
   * Windows Server 2008/2012
   * Oracle Linux (OEL) 5/6
   * Red Hat (RHEL) 5/6/7
   * Ubuntu 14.04/16.04
   * CentOS 6.x/7.x
 
-### Academic Details:
+## Academic Details:
 ---
   * Bachelor of Engineering, Computer Science and Engineering – 2005 Visveswaraiah Technological University – Belgaum, Karnataka, India
 
-### Professional Training/Certification:
+## Professional Training/Certification:
 ---
 
 | Certification Name | Type | Obtained |
