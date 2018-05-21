@@ -3,14 +3,11 @@ title: "About"
 permalink: /about/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
+  overlay_filter: rgba(255, 0, 0, 0.5)
   excerpt: "A Data Enthusiast!!!"
 ---
 
-
-## About Me:
----
-
-### Summary:
+### Professional Summary:
 ---
 **Computer Science Engineer with 11 plus years of Big Data, Data Analytics, Data Warehousing and Business
 Intelligence design and development experience, both technically focused and customer oriented**
@@ -35,6 +32,14 @@ Intelligence design and development experience, both technically focused and cus
   * Azure HDInsights (HDI) 3.4/3.6
   * Amazon Elastic MapReduce (EMR) 5.x
 
+#### Big Data Technologies:
+  * Hadoop 2.x
+  * Hive 1.x/2.x
+  * Sqoop 1.x
+  * Spark 1.x/2.x
+  * Kafka 0.x/1.x
+  * Zeppelin 0.7.3
+
 #### Cloud Platforms:
   * Amazon Web Services (AWS)
   * Microsoft Azure
@@ -57,11 +62,14 @@ Intelligence design and development experience, both technically focused and cus
   * Cognos ReportNet 1.1
   * Cognos PowerPlay Transformer 7.3
 
-#### Other BI Related Tools:
-  * Oracle DAC 10g/11g
-  * Oracle BI Apps 7.9.x/11.1.x
-  * Oracle GoldenGate 10g/11g
-  * Oracle Exalytics
+#### Databases:
+  * Azure SQL Database
+  * Amazon Redshift
+  * PostgreSQL
+  * Oracle 9i/10g/11g/12c
+  * MS SQL Server 2008-2016
+  * MySQL
+  * MS Access
 
 #### Programming Languages:
   * Python
@@ -71,6 +79,12 @@ Intelligence design and development experience, both technically focused and cus
   * Java
   * Shell scripting
 
+#### Other BI Apps Related Tools:
+  * Oracle DAC 10g/11g
+  * Oracle BI Apps 7.9.x/11.1.x
+  * Oracle GoldenGate 10g/11g
+  * Oracle Exalytics
+
 #### Operating Systems:
   * Windows Server 2008/2012
   * Oracle Linux (OEL) 5/6
@@ -78,20 +92,12 @@ Intelligence design and development experience, both technically focused and cus
   * Ubuntu 14.04/16.04
   * CentOS 6.x/7.x
 
-#### Database:
-  * Azure SQL Database
-  * Amazon Redshift
-  * PostgreSQL
-  * Oracle 9i/10g/11g/12c
-  * MS SQL Server 2008-2016
-  * MySQL
-  * MS Access
-
 ### Academic Details:
 ---
   * Bachelor of Engineering, Computer Science and Engineering – 2005 Visveswaraiah Technological University – Belgaum, Karnataka, India
 
 ### Professional Training/Certification:
+---
 
 | Certification Name | Type | Obtained |
 |------------------------------------------------------------------|---------------|---------------|
