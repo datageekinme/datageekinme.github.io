@@ -97,7 +97,7 @@ March 2011 – August 2012
   * Mentoring entry-level candidates by training and reviewing their progress on a quarterly basis
   * Conducting annual performance reviews for team members
 
-###Invenger Technologies Pvt. Ltd.
+### Invenger Technologies Pvt. Ltd.
 **Lead Analyst** <br>
 Mangalore, Karnataka, India <br>
 May 2007 – March 2011
