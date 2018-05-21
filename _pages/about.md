@@ -1,8 +1,8 @@
 ---
-title: "Keith Mascarenhas"
+title: "About"
 permalink: /about/
 header:
-  overlay_image: "/assets/images/logo/cover-photo.png"
+  overlay_image: "/assets/images/logo/overlay-image.png"
   excerpt: "A Data Enthusiast!!!"
 ---
 
