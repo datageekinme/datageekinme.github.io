@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Keith Mascarenhas"
-  avatar           : "/assets/images/logo/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo/bio.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A repo of my learnings."
   location         : "San Francisco Bay Area, CA"
   email            :
