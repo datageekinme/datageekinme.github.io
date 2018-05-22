@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: home
 author_profile: true
 permalink: /
 header:
@@ -7,4 +7,4 @@ header:
 ---
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/misc/wip.png" alt="Work in progress!" align="middle">
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/misc/wip.png){: .align-center}
