@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data Geek In Me"
+title                    : "/assets/images/logo/favicon/favicon-32x32.png"
 title_separator          : "-"
 name                     : "Keith Mascarenhas"
 description              : "A repo of my learnings."
