@@ -8,4 +8,4 @@ header:
 ---
 [comment]:<>(To switch back to old layout, change layout to home)
 
-![image-center](/assets/images/misc/wip.png){: .align-center}
+![image-center](assets/images/misc/wip.png){: .align-center}
