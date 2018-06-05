@@ -8,3 +8,5 @@ header:
 ---
 
 # [Mastering Python](/mastering-python/)
+
+[comment]:<>(Add course link, course excerpt and course completion certificate link)
