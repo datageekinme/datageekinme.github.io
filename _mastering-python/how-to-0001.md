@@ -1,6 +1,11 @@
 ---
 title: "How-To"
-excerpt: "A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually with a mark resembling an 'M' on its forehead."
+permalink: /mastering-python/how-to-0001
+header:
+  overlay_image: "/assets/images/logo/overlay-image.png"
+  overlay_filter: rgba(255, 0, 0, 0.5)
+  excerpt: "List Running Services"
+classes: wide
 ---
 
 ## How To # 1:
