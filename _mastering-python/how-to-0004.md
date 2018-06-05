@@ -31,4 +31,4 @@ There are 2 options to creating a file using powershell:
 
       ![Create file using New-Item](/assets/images/courses/mastering-python/how-to-0004-ss-002.JPG){: .align-center}
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--success .btn--large}
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}

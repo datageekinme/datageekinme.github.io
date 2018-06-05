@@ -39,4 +39,4 @@ mkdir -p .\testdir\subdir1\sub-subdir1
 
 ![creating directories recursively](/assets/images/courses/mastering-python/how-to-0002-ss-003.JPG){: .align-center}
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--success .btn--large}
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}

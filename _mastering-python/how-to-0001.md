@@ -33,4 +33,4 @@ ps aux | grep <process-name>
 
 `<process-name>` needs to be replaced with the process that you are looking for.
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--success .btn--large}
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
