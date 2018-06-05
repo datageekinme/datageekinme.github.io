@@ -1,10 +1,9 @@
 ---
-title: "Notes"
+title: "Using Powershell"
 permalink: /mastering-python/notes-0001
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-  excerpt: "Using Powershell"
 collection: mastering-python
 classes: wide
 ---
@@ -16,4 +15,4 @@ classes: wide
 * [List directories recursively](./how-to-0003.md)
 * [Create a file in Powershell](./how-to-0004.md)
 
-#### [Home](/Courses/Notes/Mastering-Python/mastering-python.md)
+#### [Home](/mastering-python/)
