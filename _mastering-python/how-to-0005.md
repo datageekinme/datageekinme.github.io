@@ -42,9 +42,7 @@ There are 3 options for formatting strings in python:
       `John Smith` being a string type is represented as `%s`, whereas `age` being an integer type is represented as `%d`
 
 
-**NOTE:** The position of the variables you supply into `format` or `%` is important. For example: 
+**NOTE:** The position of the variables you supply into `format` or `%` is important. For example:
 ![Sequence of variables](/assets/images/courses/mastering-python/how-to-0005-ss-001.JPG)
-
-
 
 ### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
