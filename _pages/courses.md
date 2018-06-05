@@ -8,6 +8,3 @@ header:
 ---
 
 # [Mastering Python](/mastering-python/)
-
-
-### [Courses - Home](/courses/){: .btn .btn--success .btn--large}
