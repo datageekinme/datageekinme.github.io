@@ -4,6 +4,10 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Courses"
+    children:
+      title: "Mastering Python"
+      url: /mastering-python/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
