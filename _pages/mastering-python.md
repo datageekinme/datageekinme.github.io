@@ -7,6 +7,8 @@ header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
   excerpt: "Mastering Python"
-entries_layout: grid
+entries_layout: list
+sort_by: title
+sort_order: forward
 classes: wide
 ---
