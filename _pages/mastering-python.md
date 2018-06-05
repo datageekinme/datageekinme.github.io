@@ -8,5 +8,5 @@ header:
 classes: wide
 ---
 
-* [Using Powershell](/mastering-python/notes-0001/)
+* [Using Powershell](/mastering-python/main-0001/)
 * [Other Resources](/mastering-python/other-resources/)
