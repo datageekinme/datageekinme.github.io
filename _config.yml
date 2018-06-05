@@ -289,7 +289,7 @@ defaults:
       comment: false
       classes: wide
       sidebar:
-        nav: "courses"
+        nav: "mastering-python"
 
 # Collections
 collections:
