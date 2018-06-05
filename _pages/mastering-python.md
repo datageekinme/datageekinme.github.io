@@ -1,12 +1,12 @@
 ---
 title: "Mastering Python"
+layout: collection
 permalink: /mastering-python/
+collection: mastering-python
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
   excerpt: "Mastering Python"
+entries_layout: grid
 classes: wide
 ---
-
-* [Using Powershell](/mastering-python/main-0001/)
-* [Other Resources](/mastering-python/other-resources/)
