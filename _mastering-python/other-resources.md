@@ -3,7 +3,7 @@ title: "Other Resources"
 permalink: /mastering-python/other-resources/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_filter: rgba(255, 255, 0, 0.5)
 classes: wide
 excerpt: "This page contains a list of other external resources that I came across during my learnings"
 ---
@@ -16,5 +16,3 @@ excerpt: "This page contains a list of other external resources that I came acro
 ### Command Line Usage:
 * [Command Line - Mac](http://python.slides.com/colt/web-scraping#/)
 * [Command Line - Windows](http://python.slides.com/colt/command-line-28#/)
-
-#### [Home](/mastering-python/)

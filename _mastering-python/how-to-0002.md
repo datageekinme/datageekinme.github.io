@@ -1,9 +1,9 @@
 ---
 title: "Using Powershell"
-permalink: /mastering-python/how-to-0001/
+permalink: /mastering-python/how-to-0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_filter: rgba(255, 255, 0, 0.5)
 classes: wide
 excerpt: "How-To #2: Creating directories recursively"
 ---
@@ -19,7 +19,7 @@ The below snippet shows an example using Powershell on Windows:
 ```powershell
 pwd
 ```
-![current working directory](/assets/images/courses/mastering-python/how-to-0002-ss-001.JPG)
+![current working directory](/assets/images/courses/mastering-python/how-to-0002-ss-001.JPG){: .align-center}
 
 Below command helps in creating another directory in the present working directory.
 
@@ -27,7 +27,7 @@ Below command helps in creating another directory in the present working directo
  mkdir testdir
 ```
 
-![creating a directory](/assets/images/courses/mastering-python/how-to-0002-ss-002.JPG)
+![creating a directory](/assets/images/courses/mastering-python/how-to-0002-ss-002.JPG){: .align-center}
 
 Following code snippet shows the option of creating sub-directories recursively using the `mkdir -p` option:
 
@@ -36,6 +36,4 @@ Following code snippet shows the option of creating sub-directories recursively 
 mkdir -p .\testdir\subdir1\sub-subdir1
 ```
 
-![creating directories recursively](/assets/images/courses/mastering-python/how-to-0002-ss-003.JPG)
-
-#### [Back](/mastering-python/notes-0001/)
+![creating directories recursively](/assets/images/courses/mastering-python/how-to-0002-ss-003.JPG){: .align-center}

@@ -3,7 +3,7 @@ title: "Using Powershell"
 permalink: /mastering-python/how-to-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_filter: rgba(255, 255, 0, 0.5)
 classes: wide
 excerpt: "How-To #3: Listing directories recursively"
 ---
@@ -18,6 +18,4 @@ The below snippet shows how to list directories recursively using the `-R` optio
 ls -R
 ```
 
-![listing directories recursively](/assets/images/courses/mastering-python/how-to-0003-ss-001.JPG)
-
-#### [Back](/mastering-python/notes-0001/)
+![listing directories recursively](/assets/images/courses/mastering-python/how-to-0003-ss-001.JPG){: .align-center}

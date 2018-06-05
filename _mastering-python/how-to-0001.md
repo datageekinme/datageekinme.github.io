@@ -3,7 +3,7 @@ title: "Using Powershell"
 permalink: /mastering-python/how-to-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_filter: rgba(255, 255, 0, 0.5)
 classes: wide
 excerpt: "How-To #1: List running Services"
 ---
@@ -31,5 +31,3 @@ ps aux | grep <process-name>
 ```
 
 `<process-name>` needs to be replaced with the process that you are looking for.
-
-#### [Back](/mastering-python/notes-0001/)
