@@ -1,5 +1,6 @@
 ---
 title: "Using Powershell"
+type: pages
 permalink: /mastering-python/notes-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
