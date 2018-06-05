@@ -30,3 +30,5 @@ There are 2 options to creating a file using powershell:
       ```
 
       ![Create file using New-Item](/assets/images/courses/mastering-python/how-to-0004-ss-002.JPG){: .align-center}
+
+### [Home](/mastering-python/)

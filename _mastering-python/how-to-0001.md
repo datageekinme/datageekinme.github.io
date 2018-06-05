@@ -32,3 +32,5 @@ ps aux | grep <process-name>
 ```
 
 `<process-name>` needs to be replaced with the process that you are looking for.
+
+### [Home](/mastering-python/)

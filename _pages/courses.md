@@ -7,4 +7,4 @@ header:
   excerpt: "List of all courses taken"
 ---
 
-### [Mastering Python](/mastering-python/)
+# [Mastering Python](/mastering-python/)
