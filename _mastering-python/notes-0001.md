@@ -10,9 +10,9 @@ classes: wide
 
 ### How-To's:
 
-* [Get running services](/mastering-python/how-to-0001)
-* [Create directories recursively](/mastering-python/how-to-0002)
-* [List directories recursively](/mastering-python/how-to-0003)
-* [Create a file in Powershell](/mastering-python/how-to-0004)
+* [Get running services](/mastering-python/how-to-0001/)
+* [Create directories recursively](/mastering-python/how-to-0002/)
+* [List directories recursively](/mastering-python/how-to-0003/)
+* [Create a file in Powershell](/mastering-python/how-to-0004/)
 
 #### [Home](/mastering-python/)

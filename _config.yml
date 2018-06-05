@@ -288,9 +288,3 @@ defaults:
       share: false
       comment: false
       classes: wide
-
-# Collections
-collections:
-  mastering-python:
-    output: true
-    permalink: /:collection/:path
