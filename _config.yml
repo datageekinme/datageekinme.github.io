@@ -287,9 +287,3 @@ defaults:
       author_profile: false
       share: false
       comment: false
-
-# Collections
-collections:
-  mastering-python:
-    output: true
-    permalink: /:collection/:path
