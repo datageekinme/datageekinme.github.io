@@ -1,10 +1,11 @@
 ---
-title: "How-To"
+title: "Using Powershell"
 permalink: /mastering-python/how-to-0004/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
 classes: wide
+excerpt: "How-To #4: Creating a file in Windows using Powershell"
 ---
 
 # Creating a file in Windows using Powershell

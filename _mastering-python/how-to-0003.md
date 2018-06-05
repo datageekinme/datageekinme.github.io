@@ -1,10 +1,11 @@
 ---
-title: "How-To"
+title: "Using Powershell"
 permalink: /mastering-python/how-to-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
 classes: wide
+excerpt: "How-To #3: Listing directories recursively"
 ---
 
 # Listing directories recursively

@@ -8,7 +8,7 @@ header:
   overlay_filter: rgba(255, 0, 0, 0.5)
   excerpt: "Mastering Python"
 entries_layout: list
-sort_by: title
+sort_by: excerpt
 sort_order: forward
 classes: wide
 ---

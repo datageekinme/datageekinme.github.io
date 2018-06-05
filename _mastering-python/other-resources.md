@@ -1,11 +1,11 @@
 ---
 title: "Other Resources"
-permalink: /mastering-python/other-resources
+permalink: /mastering-python/other-resources/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-collection: mastering-python
 classes: wide
+excerpt: "This page contains a list of other external resources that I came across during my learnings"
 ---
 
 ### Python 2 vs. Python 3:
