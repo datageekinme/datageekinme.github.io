@@ -4,11 +4,10 @@ permalink: /mastering-python/how-to-0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-  excerpt: "Creating directories recursively"
 classes: wide
 ---
 
-## Creating directories recursively:
+# Creating directories recursively
 
 The following option can be used in all operating systems, be it MacOS, Windows (using Powershell) or Linux.
 

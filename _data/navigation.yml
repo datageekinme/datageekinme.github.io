@@ -13,5 +13,14 @@ main:
 
 # courses
 courses:
-    - title: "Mastering Python"
-      url: /mastering-python/
+    - title: "Courses"
+      children:
+        - title: "Mastering Python"
+          url: /mastering-python/
+          children:
+            - title: "Notes"
+              url: /mastering-python/notes-0000/
+            - title: "How To"
+              url: /mastering-python/notes-0001/
+            - title: "Exercises"
+              url: /mastering-python/notes-0002/

@@ -4,11 +4,10 @@ permalink: /mastering-python/how-to-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-  excerpt: "Listing directories recursively"
 classes: wide
 ---
 
-## Listing directories recursively:
+# Listing directories recursively
 
 The following option can be used in all operating systems, be it MacOS, Windows (using Powershell) or Linux.
 

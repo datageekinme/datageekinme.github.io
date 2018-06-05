@@ -4,13 +4,10 @@ permalink: /mastering-python/how-to-0004/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-  excerpt: "Listing directories recursively"
 classes: wide
 ---
 
-## How To # 4:
-
-### Creating a file in Windows using Powershell:
+# Creating a file in Windows using Powershell
 
 There are 2 options to creating a file using powershell:
 

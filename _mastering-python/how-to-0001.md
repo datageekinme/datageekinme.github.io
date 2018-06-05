@@ -4,11 +4,10 @@ permalink: /mastering-python/how-to-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
-  excerpt: "List Running Services"
 classes: wide
 ---
 
-## List running services:
+# List running services
 
 #### Windows:
 The below command lists all the sevices that are currently running on a Windows PC using Powershell:
