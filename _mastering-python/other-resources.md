@@ -4,6 +4,7 @@ permalink: /mastering-python/other-resources/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 255, 0, 0.5)
+  teaser: "/assets/images/misc/resources.jpg"
 classes: wide
 excerpt: "This page contains a list of other external resources that I came across during my learnings"
 ---
