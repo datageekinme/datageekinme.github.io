@@ -1,6 +1,6 @@
 ---
 title: "Using Powershell"
-permalink: /mastering-python/notes-0001
+permalink: /mastering-python/notes-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)

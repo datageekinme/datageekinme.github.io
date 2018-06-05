@@ -1,6 +1,6 @@
 ---
 title: "How-To"
-permalink: /mastering-python/how-to-0003
+permalink: /mastering-python/how-to-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 0, 0.5)
