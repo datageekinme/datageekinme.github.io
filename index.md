@@ -1,6 +1,5 @@
 ---
 layout: splash
-author_profile: true
 permalink: /
 header:
   image: "/assets/images/logo/cover-photo.png"
@@ -8,5 +7,6 @@ header:
 ---
 
 [comment]:<>(To switch back to old layout, change layout to home)
+[comment]:<>(add author_profile: true)
 
 ![image-center](/assets/images/misc/wip.png){: .align-center}
