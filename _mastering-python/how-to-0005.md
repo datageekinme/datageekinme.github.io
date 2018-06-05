@@ -1,0 +1,44 @@
+---
+title: "Mastering Python"
+permalink: /mastering-python/how-to-0005/
+header:
+  overlay_image: "/assets/images/logo/overlay-image.png"
+  overlay_filter: rgba(255, 0, 255, 0.5)
+  teaser: "/assets/images/misc/how-to-1.jpg"
+classes: wide
+excerpt: "How-To #5: Formatting Strings"
+---
+
+# Formatting Strings
+
+There are 3 options for formatting strings in python:
+
+1. Using  `F-Strings` (applicable from Python v3.6 onwards):
+
+      ```python
+      name = "John  Smith"
+      age = 52
+      print(f"{name}, is {age} years old")
+      ```
+
+      By using `f`, we can add variables into the string by putting them within curly braces `{}`
+
+2. Using the `.format` method:
+
+      ```python
+      name = "John  Smith"
+      age = 52
+      print("{}, is {} years old".format(name,age))
+      ```
+
+3. Using the `%` operator:
+
+      ```python
+      name = "John  Smith"
+      age = 52
+      print("%s, is %d years old" % (name,age))
+      ```
+
+      `John Smith` being a string type is represented as `%s`, whereas `age` being an integer type is represented as `%d`
+
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}

@@ -11,7 +11,7 @@ excerpt: "Notes #0: Glossary of terms in  Python"
 
 # Glossary:
 
-### Dynamic Typing:
+## Dynamic Typing:
 **Python is highly flexible about reassigning variables to different types. This is called as dynamic typing as variables can change types readily.**
 
 Languages such C++ and Java are **statically-typed** and variables are stuck with their original assigned data type.
