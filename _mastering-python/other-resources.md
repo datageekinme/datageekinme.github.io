@@ -14,8 +14,4 @@ excerpt: "This page contains a list of other external resources that I came acro
 * [Python 3 Readiness](http://py3readiness.org/)
 * [Python 2 Countdown](https://pythonclock.org/)
 
-### Command Line Usage:
-* [Command Line - Mac](http://python.slides.com/colt/web-scraping#/)
-* [Command Line - Windows](http://python.slides.com/colt/command-line-28#/)
-
 ### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
