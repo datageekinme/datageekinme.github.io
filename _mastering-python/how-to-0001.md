@@ -8,9 +8,7 @@ header:
 classes: wide
 ---
 
-## How To # 1:
-
-### List running services:
+## List running services:
 
 #### Windows:
 The below command lists all the sevices that are currently running on a Windows PC using Powershell:
@@ -34,4 +32,4 @@ ps aux | grep <process-name>
 
 `<process-name>` needs to be replaced with the process that you are looking for.
 
-#### [Back](./notes-0001.md)
+#### [Back](/mastering-python/notes-0001/)
