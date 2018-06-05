@@ -18,4 +18,4 @@ excerpt: "This page contains a list of other external resources that I came acro
 * [Command Line - Mac](http://python.slides.com/colt/web-scraping#/)
 * [Command Line - Windows](http://python.slides.com/colt/command-line-28#/)
 
-### [Home](/mastering-python/)
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--success}

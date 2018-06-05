@@ -21,4 +21,4 @@ ls -R
 
 ![listing directories recursively](/assets/images/courses/mastering-python/how-to-0003-ss-001.JPG){: .align-center}
 
-### [Home](/mastering-python/)
+### [Mastering Python - Home](/mastering-python/){: .btn .btn--success .btn--large}
