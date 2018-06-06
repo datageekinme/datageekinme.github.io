@@ -12,7 +12,7 @@ excerpt: "Tip # 1: Difference between `is` and `==` operators"
 ## Tip # 1: Difference between `is` and `==` operators:
 
 **Example 1:**
-```Python
+```python
 a = 1
 a == 1 # True
 a is 1 # True
