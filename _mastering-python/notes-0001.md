@@ -9,7 +9,7 @@ classes: wide
 excerpt: "Notes #1: A summary of the data structures in Python"
 ---
 
-# Data Structures in Python:
+## Data Structures in Python:
 
 ### Lists:
 **Ordered sequence of values of other data types like int, boolean or string**
