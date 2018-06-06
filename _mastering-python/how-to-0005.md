@@ -43,6 +43,7 @@ There are 3 options for formatting strings in python:
 
 
 **NOTE:** The position of the variables you supply into `format` or `%` is important. For example:
-![Sequence of variables](/assets/images/courses/mastering-python/how-to-0005-ss-001.JPG)
+
+![Sequence of variables](/assets/images/courses/mastering-python/how-to-0005-ss-001.JPG){: .align-center}
 
 ### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
