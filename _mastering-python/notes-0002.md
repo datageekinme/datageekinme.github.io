@@ -1,17 +1,17 @@
 ---
-title: "Data Structures"
-permalink: /mastering-python/notes-0001/
+title: "Rock Paper Scissors"
+permalink: /mastering-python/notes-0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
 classes: wide
-excerpt: "Notes #2: Playing rock, paper, scissors with a computer player using the random module"
+excerpt: "Notes #2: Playing rock paper scissors with a computer player using the random module"
 ---
 
-## Playing rock, paper, scissors with a computer player using the `random` module:
+## Playing rock paper scissors with a computer player using the `random` module:
 
-**Option 1:**
+**Option 1** - Using `randint`:
 ```python
 print("...Rock")
 print("...Paper")
@@ -19,7 +19,7 @@ print("...Scissors")
 
 from random import randint
 player1 = input("Player 1, make your move: ")
-# using choice to pick a value from a list of options
+# using randint to pick a value from a list of options
 player2 = None
 player2_choice = randint(0,2)
 if player2_choice == 0:
@@ -42,7 +42,7 @@ else:
     print("player2 wins!")
 ```
 
-**Option 2:**
+**Option 2** - Using `choice`:
 ```python
 print("...Rock")
 print("...Paper")
