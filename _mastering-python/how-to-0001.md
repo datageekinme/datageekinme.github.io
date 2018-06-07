@@ -6,7 +6,8 @@ header:
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/how-to-1.jpg"
 toc: true
-excerpt: "How-To's"
+value: 1
+excerpt: "A collection of How-To's for Using Powershell"
 ---
 
 ## How-To #1: List running services

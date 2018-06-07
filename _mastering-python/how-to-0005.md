@@ -1,11 +1,12 @@
 ---
 title: "Mastering Python"
-permalink: /mastering-python/how-to-0005/
+permalink: /mastering-python/how-to-0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/how-to-1.jpg"
-classes: wide
+value: 2
+toc: true
 excerpt: "How-To #5: Formatting Strings"
 ---
 
