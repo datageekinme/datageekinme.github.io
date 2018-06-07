@@ -16,21 +16,21 @@ toc: true
 * It can accept input and return an output
 * Useful for executing similar procedures over and over
 
-#### Why use functions:
+### Why use functions:
 
-* To stay **DRY** - **D**on't **R**epeat **Y**ourself! (Opp. of **WET** - **W**rite **E**verything **T**wice)
+* To stay **DRY** - Don't Repeat Yourself! (Opp. of **WET** - Write Everything Twice)
 * Clean up and prevent code duplication
 * Abstract away code for other users. Also can be used for reusability. For example, specific type of logging.
 * Helps in organizing the code
 
-#### Structure of a function:
+### Structure of a function:
 
 ```python
 def <function-name> () :
   # block of code
 ```
 
-#### Returning a value from a function:
+### Returning a value from a function:
 
 `return` keyword can be used to do so. Using this keyword, exits the function. Pops the function off of the call stack.
 
@@ -46,7 +46,7 @@ def <function-name> () :
 >>> squareOf7()
 49
 ```
-##### Common `return` mistake:
+#### Common `return` mistake:
 
 `return` is not placed in the correct block.
 ```python
@@ -70,7 +70,7 @@ def <function-name> () :
 16
 ```
 
-#### Default Parameters:
+### Default Parameters:
 
 Specifying default arguments for a parameter. (see [Glossary](/mastering-python/notes-0000) to understand difference between parameter and argument)
 
@@ -110,7 +110,7 @@ Default parameters can be anything! - functions, lists, dictionaries, strings, b
 0
 ```
 
-Keyword arguments:
+#### Keyword arguments:
 
 If you know the parameter name, you can provide arguments using the parameter name and then the order of the arguments doesn't matter.
 
@@ -130,7 +130,7 @@ It's very useful when passing a dictionary to a function and unpacking it's valu
 * When you define a function and use an `=`, you are setting a default parameter
 * when you invoke a function and use an `=`, you are making a keyword argument
 
-#### Documenting functions:
+### Documenting functions:
 
 You can use `""" <text> """` in the first line of the function code block to document the functionality of a function. It's essential when writing complex functions.
 
@@ -147,7 +147,7 @@ Can be leveraged using the `__doc__` method as follows:
 'Hello!'
 ```
 
-#### Introduction to `*args`:
+### Introduction to `*args`:
 
 * A special operator that we can pass to Functions
 * Gathers remaining arguments as a tuple
@@ -184,4 +184,4 @@ Examples:
 6
 ```
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
+[Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
