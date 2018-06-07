@@ -4,7 +4,7 @@ permalink: /mastering-python/0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 0, 255, 0.5)
-  teaser: "/assets/images/misc/notes-1.jpg"
+  teaser: "/assets/images/misc/notes-1.png"
 toc: true
 excerpt: "Lists Explained"
 ---

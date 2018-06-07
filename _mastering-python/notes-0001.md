@@ -4,7 +4,7 @@ permalink: /mastering-python/0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 0, 255, 0.5)
-  teaser: "/assets/images/misc/notes-1.jpg"
+  teaser: "/assets/images/misc/notes-1.png"
 toc: true
 excerpt: "A summary of the data structures in Python"
 ---
@@ -111,7 +111,7 @@ Example:
 ```python
 >>> { x ** 2 for x in range(1,11) } # creates a set
 {64, 1, 4, 36, 100, 9, 16, 49, 81, 25}
->>> { x: x ** 2 for x in range(1,11) } # creates a dictionary, as key is also specified
+>>> { x: x ** 2 for x in range(1,11) } # creates a dictionary, as key is specified
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}
 ```
 
