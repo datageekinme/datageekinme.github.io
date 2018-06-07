@@ -1,12 +1,12 @@
 ---
 title: "Ranges"
-permalink: /mastering-python/notes-0002/
+permalink: /mastering-python/notes-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
 classes: wide
-excerpt: "Notes #3: `range` and `xrange`"
+excerpt: "Note #3: `range` and `xrange`"
 ---
 
 ## Ranges: `range` and `xrange`:
@@ -29,6 +29,6 @@ Similar to `range` i.e. generates a sequence of numbers. `xrange` does not actua
 
 `xrange` returns a `xrange` object
 
-NOTE: `xrange` does not exist in Python 3. `range` does what `xrange` used to do in Python 2. {: .notice--warning}
+NOTE: `xrange` does not exist in Python 3. `range` does what `xrange` used to do in Python 2.
 
 ### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}

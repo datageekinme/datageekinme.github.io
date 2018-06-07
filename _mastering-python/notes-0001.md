@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
 classes: wide
-excerpt: "Notes #1: A summary of the data structures in Python"
+excerpt: "Note #1: A summary of the data structures in Python"
 ---
 
 ## Data Structures in Python:

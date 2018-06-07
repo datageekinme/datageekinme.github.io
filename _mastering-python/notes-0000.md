@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
 classes: wide
-excerpt: "Notes #0: Glossary of terms in  Python"
+excerpt: "Note #0: Glossary of terms in  Python"
 ---
 
 ## Glossary:

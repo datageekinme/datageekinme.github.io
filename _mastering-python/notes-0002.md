@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
 classes: wide
-excerpt: "Notes #2: Playing rock paper scissors with a computer player using the random module"
+excerpt: "Note #2: Playing rock paper scissors with a computer player using the random module"
 ---
 
 ## Playing rock paper scissors with a computer player using the `random` module:
