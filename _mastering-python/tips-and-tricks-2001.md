@@ -1,6 +1,6 @@
 ---
 title: "Tips & Tricks"
-permalink: /mastering-python/tips-and-tricks-0001/
+permalink: /mastering-python/2001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)

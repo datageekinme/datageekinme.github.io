@@ -1,6 +1,6 @@
 ---
 title: "Python: Data Structures"
-permalink: /mastering-python/notes-0001/
+permalink: /mastering-python/0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 0, 255, 0.5)
@@ -20,8 +20,8 @@ excerpt: "A summary of the data structures in Python"
 ```
 
 Other Articles:
-* [Notes: List Explained](/mastering-python/notes-0002/)
-* [Tips & Tricks](/mastering-python/tips-and-tricks-0001/)
+* [Notes: List Explained](/mastering-python/0002/)
+* [Tips & Tricks](/mastering-python/2001/)
 
 ### Dictionaries
 **A collection of key: value pairs**
@@ -37,8 +37,8 @@ person = dict('id' = 1, 'first_name' = 'Keith', 'last_name' = 'Mascarenhas', 'sa
 ```
 
 Other Articles:
-* [Notes: Dictionary Explained](/mastering-python/notes-0003)
-* [Tips & Tricks](/mastering-python/tips-and-tricks-0001/)
+* [Notes: Dictionary Explained](/mastering-python/0003/)
+* [Tips & Tricks](/mastering-python/2001/)
 
 ### Tuples
 

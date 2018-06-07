@@ -1,6 +1,6 @@
 ---
 title: "Other Resources"
-permalink: /mastering-python/other-resources/
+permalink: /mastering-python/3001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)

@@ -1,6 +1,6 @@
 ---
 title: "Python: Data Structures"
-permalink: /mastering-python/notes-0003/
+permalink: /mastering-python/0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 0, 255, 0.5)
