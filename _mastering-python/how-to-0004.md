@@ -9,7 +9,7 @@ classes: wide
 excerpt: "How-To #4: Creating a file in Windows using Powershell"
 ---
 
-# Creating a file in Windows using Powershell
+# How-To #4: Creating a file in Windows using Powershell
 
 There are 2 options to creating a file using powershell:
 

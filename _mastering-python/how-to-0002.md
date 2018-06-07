@@ -9,7 +9,7 @@ classes: wide
 excerpt: "How-To #2: Creating directories recursively"
 ---
 
-# Creating directories recursively
+# How-To #2: Creating directories recursively
 
 The following option can be used in all operating systems, be it MacOS, Windows (using Powershell) or Linux.
 
@@ -39,4 +39,4 @@ mkdir -p .\testdir\subdir1\sub-subdir1
 
 ![creating directories recursively](/assets/images/courses/mastering-python/how-to-0002-ss-003.JPG){: .align-center}
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
+[Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}
