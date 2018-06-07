@@ -286,7 +286,6 @@ defaults:
       layout: single
       author_profile: true
       comment: false
-      classes: wide
 
 
 # Collections
