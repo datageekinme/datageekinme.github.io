@@ -9,6 +9,6 @@ header:
 entries_layout: grid
 sort_by: excerpt
 sort_order: forward
-excerpt: "List of all articles related to Python"
+excerpt: "List of all articles related to my Python learnings"
 classes: wide
 ---

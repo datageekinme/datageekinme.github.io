@@ -1,12 +1,12 @@
 ---
 title: "Mastering Python"
-permalink: /mastering-python/how-to-0005/
+permalink: /mastering-python/how-to-0006/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/how-to-1.jpg"
 classes: wide
-excerpt: "How-To #5: Converting Data Types"
+excerpt: "How-To #6: Converting Data Types"
 ---
 
 # Converting Data Types:
