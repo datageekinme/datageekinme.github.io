@@ -7,7 +7,7 @@ header:
   teaser: "/assets/images/misc/how-to-1.jpg"
 value: 2
 toc: true
-excerpt: "How-To #5: Formatting Strings"
+excerpt: "A collection of How-To's for mastering Python"
 ---
 
 # Formatting Strings
