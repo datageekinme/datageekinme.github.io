@@ -1,17 +1,17 @@
 ---
-title: "Data Structures"
+title: "Python: Data Structures"
 permalink: /mastering-python/notes-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
-  overlay_filter: rgba(255, 0, 255, 0.5)
+  overlay_filter: rgba(0, 0, 255, 0.5)
   teaser: "/assets/images/misc/notes-1.jpg"
-classes: wide
-excerpt: "Note #1: A summary of the data structures in Python"
+toc: true
+excerpt: "A summary of the data structures in Python"
 ---
 
-## Data Structures in Python:
+## Data Structures in Python
 
-### Lists:
+### Lists
 **Ordered sequence of values of other data types like int, boolean or string**
 
 ```python
@@ -20,13 +20,10 @@ excerpt: "Note #1: A summary of the data structures in Python"
 ```
 
 Other Articles:
-* [Notes: List Methods](/mastering-python/notes-0004/)
-* [Notes: Slicing Lists](/mastering-python/notes-0005/)
-* [Notes: List Comprehensions](/mastering-python/notes-0006/)
-* [Tips: Tricks with Slices](/mastering-python/tips-and-tricks-0003/)
-* [Tips: Swapping values in a list](/mastering-python/tips-and-tricks-0004/)
+* [Notes: List Explained](/mastering-python/notes-0002/)
+* [Tips & Tricks](/mastering-python/tips-and-tricks-0001/)
 
-### Dictionaries:
+### Dictionaries
 **A collection of key: value pairs**
 
 We use keys to describe our data and values to represent the data.
@@ -40,13 +37,10 @@ person = dict('id' = 1, 'first_name' = 'Keith', 'last_name' = 'Mascarenhas', 'sa
 ```
 
 Other Articles:
-* [Notes: Accessing data from a dictionary](/mastering-python/notes-0007/)
-* [Notes: Iterating a dictionary](/mastering-python/notes-0008/)
-* [Notes: Dictionary methods](/mastering-python/notes-0009/)
-* [Notes: Dictionary Comprehensions](/mastering-python/notes-0010/)
-* [Tips: Getting a sum of all values in a dictionary](/mastering-python/tips-and-tricks-0006/)
+* [Notes: Dictionary Explained](/mastering-python/notes-0003)
+* [Tips & Tricks](/mastering-python/tips-and-tricks-0001/)
 
-### Tuples:
+### Tuples
 
 An ordered collection or grouping of items, but is immutable i.e. cannot update or delete a value in a tuple.
 
@@ -76,7 +70,7 @@ Methods available for a tuple are:
 
 Tuples can be nested. Also, slices work with tuples.
 
-### Sets:
+### Sets
 
 Sets are like formal mathematical sets. They are a collection of data that do not have duplicate values and aren't ordered. You cannot access items in a set by index.
 
@@ -121,4 +115,4 @@ Example:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}
 ```
 
-### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
+[Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}

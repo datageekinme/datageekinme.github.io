@@ -107,5 +107,87 @@ dict_values([25.0, 88.99, 13.0, 99.5, 150.0, 50.25, 10.0])
 436.74
 ```
 
+## Tip # 7: `range` vs. `xrange`
+
+### `range`
+The `range` type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in `for` loops.
+
+**Syntax:**
+```python
+range(stop)
+range(start, stop[, step])
+```
+`step` argument defaults to 1. Can be negative or positive.
+
+`range` returns a `list` object
+
+### `xrange`
+
+Similar to `range` i.e. generates a sequence of numbers. `xrange` does not actually generate a static list at run-time like range does. Creates the values as needed with a techinque called `yielding`. This techinque is used with a type of object called `generators`.
+
+`xrange` returns a `xrange` object
+
+NOTE: `xrange` does not exist in Python 3. `range` does what `xrange` used to do in Python 2.
+
+## Tip # 8: Rock paper scissors using the `random` module
+
+### Option 1 - Using `randint`:
+```python
+print("...Rock")
+print("...Paper")
+print("...Scissors")
+
+from random import randint
+player1 = input("Player 1, make your move: ")
+# using randint to pick a value from a list of options
+player2 = None
+player2_choice = randint(0,2)
+if player2_choice == 0:
+  player2 = "rock"
+elif player2_choice == 1:
+  player2 = "paper"
+else:
+  player2 = 'scissors'
+print("Computer player selected: " + player2)
+
+if player1 == player2:
+    print("It's a tie!")
+elif player1 == "rock" and player2 == "scissors":
+    print("player1 wins!")
+elif player1 == "paper" and player2 == "rock":
+    print("player1 wins!")
+elif player1 == "scissors" and player2 == "paper":
+    print("player1 wins!")
+else:
+    print("player2 wins!")
+```
+
+### Option 2 - Using `choice`:
+```python
+print("...Rock")
+print("...Paper")
+print("...Scissors")
+
+from random import choice
+player1 = input("Player 1, make your move: ")
+# using choice to pick a value from a list of options
+player2 = choice(['rock', 'paper', 'scissors'])
+print("Computer player selected: " + player2)
+
+if player1 == player2:
+    print("It's a tie!")
+elif player1 == "rock" and player2 == "scissors":
+    print("player1 wins!")
+elif player1 == "paper" and player2 == "rock":
+    print("player1 wins!")
+elif player1 == "scissors" and player2 == "paper":
+    print("player1 wins!")
+else:
+    print("player2 wins!")
+```
+
+![Sample Output](/assets/images/courses/mastering-python/notes-0002-ss-001.JPG){: .align-center}
+
+**NOTE:** Not handling invalid values to keep it simple
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
