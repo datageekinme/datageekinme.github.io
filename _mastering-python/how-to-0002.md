@@ -5,7 +5,7 @@ header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/how-to-1.jpg"
-value: 2
+value: "b"
 toc: true
 excerpt: "A collection of How-To's for Mastering Python"
 ---
@@ -47,7 +47,7 @@ There are 3 options for formatting strings in python:
 
 ![Sequence of variables](/assets/images/courses/mastering-python/how-to-0005-ss-001.JPG){: .align-center}
 
-## How-To #2: Converting Data Types:
+## How-To #2: Converting Data Types
 
 In string interpolation, data types are implicitly converted into string form.
 

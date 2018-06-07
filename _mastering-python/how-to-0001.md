@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(255, 0, 255, 0.5)
   teaser: "/assets/images/misc/how-to-1.jpg"
 toc: true
-value: 1
+value: "b"
 excerpt: "A collection of How-To's for Using Powershell"
 ---
 
