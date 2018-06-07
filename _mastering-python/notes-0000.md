@@ -18,4 +18,10 @@ Languages such C++ and Java are **statically-typed** and variables are stuck wit
 
 ![Dynamic Typing](/assets/images/courses/mastering-python/notes-0000-ss-001.JPG){: .align-center}
 
+### Parameters vs. Arguments:
+
+With respect to functions in Python, a parameter is a variable in a method definition whereas arguments are the data you pass into the method's parameters.
+
+**Parameter** is variable in the declaration of function and **Argument** is the actual value of this variable that gets passed to a function.
+
 ### [Mastering Python - Home](/mastering-python/){: .btn .btn--primary}
