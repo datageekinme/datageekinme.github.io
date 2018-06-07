@@ -9,16 +9,16 @@ toc: true
 excerpt: "How-To's"
 ---
 
-# How-To #1: List running services
+## How-To #1: List running services
 
-## Windows:
+### Windows:
 The below command lists all the sevices that are currently running on a Windows PC using Powershell:
 
 ```powershell
 Get-Service | Where-Object {$_.Status –eq “Running”}
 ```
 
-## MacOS:
+### MacOS:
 On a MacOS, the following command can be used on a terminal:
 
 ```terminal
@@ -33,7 +33,7 @@ ps aux | grep <process-name>
 
 `<process-name>` needs to be replaced with the process that you are looking for.
 
-# How-To #2: Creating directories recursively
+## How-To #2: Creating directories recursively
 
 The following option can be used in all operating systems, be it MacOS, Windows (using Powershell) or Linux.
 
@@ -63,7 +63,7 @@ mkdir -p .\testdir\subdir1\sub-subdir1
 
 ![creating directories recursively](/assets/images/courses/mastering-python/how-to-0002-ss-003.JPG){: .align-center}
 
-# How-To #3: Listing directories recursively
+## How-To #3: Listing directories recursively
 
 The following option can be used in all operating systems, be it MacOS, Windows (using Powershell) or Linux.
 
@@ -75,7 +75,7 @@ ls -R
 
 ![listing directories recursively](/assets/images/courses/mastering-python/how-to-0003-ss-001.JPG){: .align-center}
 
-# How-To #4: Creating a file in Windows using Powershell
+## How-To #4: Creating a file in Windows using Powershell
 
 There are 2 options to creating a file using powershell:
 
@@ -97,4 +97,4 @@ There are 2 options to creating a file using powershell:
 
       ![Create file using New-Item](/assets/images/courses/mastering-python/how-to-0004-ss-002.JPG){: .align-center}
 
-[Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}
+[Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
