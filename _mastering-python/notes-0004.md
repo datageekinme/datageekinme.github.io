@@ -237,4 +237,154 @@ Examples:
 6
 ```
 
+### Introduction to `**kwargs`
+
+* A special operator we can pass to functions
+* Gathers remaining keyword arguments as a dictionary
+
+Example:
+
+```python
+>>> def fav_sports(**kwargs):
+...     for person, sport in kwargs.items():
+...             print(f"{person}'s favorite sport is {sport}")
+...
+>>> fav_sports(john="baseball", jane="softball", jim="basketball", jack="football")
+john's favorite sport is baseball
+jane's favorite sport is softball
+jim's favorite sport is basketball
+jack's favorite sport is football
+>>> fav_sports(john="baseball", jane="softball", jim="basketball")
+john's favorite sport is baseball
+jane's favorite sport is softball
+jim's favorite sport is basketball
+>>> fav_sports(john="baseball")
+john's favorite sport is baseball
+```
+
+```python
+>>> def combine_words(word, **kwargs):
+...     if "prefix" in kwargs:
+...         return kwargs.get("prefix") + word
+...     elif "suffix" in kwargs:
+...         return word + kwargs.get("suffix")
+...     return word
+...
+>>> combine_words('child')
+'child'
+>>> combine_words('child', prefix='man')
+'manchild'
+>>> combine_words('child', suffix='ish')
+'childish'
+>>> combine_words('work', suffix='er')
+'worker'
+>>> combine_words('work', prefix='home')
+'homework'
+```
+
+```python
+>>> def calculate(**kwargs):
+...     result = 0
+...     first = kwargs['first']
+...     second = kwargs['second']
+...     if kwargs['operation'] == 'add':
+...         result = first + second
+...     elif kwargs['operation'] == 'subtract':
+...         result = first - second
+...     elif kwargs['operation'] == 'multiply':
+...         result = first * second
+...     elif kwargs['operation'] == 'divide':
+...         result = first / second
+...
+...     if kwargs['make_float']:
+...         result = float(result)
+...     else:
+...         result = int(result)
+...
+...     if kwargs.get('message'):
+...         message = kwargs['message']
+...         return '{} {}'.format(message, result)
+...     else:
+...         return 'The result is {}'.format(result)
+...
+>>> calculate(make_float=False, operation='add', message='You just added', first=2, second=4)
+'You just added 6'
+>>>
+>>> calculate(make_float=True, operation='divide', first=3.5, second=5)
+'The result is 0.7'
+```
+
+### Parameter Ordering
+
+Ordering of parameters matters as it can break the code.
+
+Following is the order:
+1. parameters
+2. `*args`
+3. default parameters
+4. `**kwargs`
+
+### List / Tuple Unpacking:
+
+Passing a collection as below to `*args` results in `unsupported operand type` error as seen below.
+
+In order to handle collections, use `*` before argument like `sumAll(*nums)`
+```python
+>>> def sumAll(*args):
+...     print(args)
+...     total = 0
+...     for num in args:
+...         total += num
+...     print(total)
+...
+>>>
+>>> nums = [1,2,3,4,5,6]
+>>> sumAll(nums)
+([1, 2, 3, 4, 5, 6],)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in sumAll
+TypeError: unsupported operand type(s) for +=: 'int' and 'list'
+>>>
+>>> sumAll(*nums)
+(1, 2, 3, 4, 5, 6)
+21
+```
+
+### Dictionary Unpacking:
+
+`**` will unpack a dictionary to keyword arguments, like `*` unpacks a list or a tuple.
+
+```python
+>>> def display_names(first, second):
+...     print(f"{first} says hello to {second}")
+...
+>>> names = {'first': 'John', 'second': 'Smith'}
+>>> display_names(**names)
+John says hello to Smith
+>>>
+```
+
+```python
+>>> def add_and_multiply(a,b,c,**kwargs):
+...     print(a+b*c)
+...     print("OTHER STUFF.....")
+...     print(kwargs)
+...
+>>> data=dict(a=1,b=2,c=3)
+>>> add_and_multiply(**data)
+7
+OTHER STUFF.....
+{}
+>>> data=dict(a=1,b=2,c=3,d=55,name='John')
+>>> add_and_multiply(**data)
+7
+OTHER STUFF.....
+{'d': 55, 'name': 'John'}
+>>> add_and_multiply(**data,cat='blue')
+7
+OTHER STUFF.....
+{'d': 55, 'name': 'John', 'cat': 'blue'}
+```
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
