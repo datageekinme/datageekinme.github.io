@@ -190,4 +190,28 @@ else:
 
 **NOTE:** Not handling invalid values to keep it simple
 
+## Tip #9: Generator Expressions vs List Comprehensions
+
+List comprehensions are better when you want to iterate over something multiple times. However, it's also worth noting that you should use a list if you want to use any of the list methods.
+
+Basically, use a generator expression if all you're doing is iterating once. If you want to store and use the generated results, then you're probably better off with a list comprehension.
+
+Performance is the most common reason to choose one over the other.
+
+```python
+>>> import sys
+>>> sys.getsizeof(x * 10 for x in  range(1000))
+48
+>>> sys.getsizeof([x * 10 for x in  range(1000)])
+4516
+```
+
+The generator yields one item at a time — thus it is more memory efficient than a list.
+
+Some good external resources to explain the same:
+* [stackoverflow](https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehension)
+* [code-maven.com](https://code-maven.com/list-comprehension-vs-generator-expression)
+* [medium.freecodecamp.org](https://medium.freecodecamp.org/python-list-comprehensions-vs-generator-expressions-cef70ccb49db)
+
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
