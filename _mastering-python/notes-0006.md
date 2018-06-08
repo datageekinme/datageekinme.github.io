@@ -189,7 +189,7 @@ None
  please enter a number: 10
  I'm in the else!!
  Runs no matter what!
-
+ 
  >>> try:
  ...     num = int(input("please enter a number: "))
  ... except:
@@ -204,8 +204,7 @@ None
  Runs no matter what!
  ```
 
-
- ## Debugging with pdb
+## Debugging with pdb
 
 We can debug a python program step-by-step by placing the following code within the program.
 
