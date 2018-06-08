@@ -190,7 +190,7 @@ else:
 
 **NOTE:** Not handling invalid values to keep it simple
 
-## Tip #9: Generator Expressions vs List Comprehensions
+## Tip # 9: Generator Expressions vs List Comprehensions
 
 List comprehensions are better when you want to iterate over something multiple times. However, it's also worth noting that you should use a list if you want to use any of the list methods.
 
@@ -212,6 +212,22 @@ Some good external resources to explain the same:
 * [stackoverflow](https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehension)
 * [code-maven.com](https://code-maven.com/list-comprehension-vs-generator-expression)
 * [medium.freecodecamp.org](https://medium.freecodecamp.org/python-list-comprehensions-vs-generator-expressions-cef70ccb49db)
+
+## Tip # 10: Different ways to import modules
+
+* `import random`
+* `import random as rand`
+* `from random import *`
+* `from random import choice, shuffle, randint`
+* `from random import choice as c, shuffle as s`
+
+## Tip # 11: Avoid running a block of code on import
+
+By default, when you import a module, it executes the code. If you want to avoid a block of code from executing on import, you can add that part of the code under the following:
+
+  `if __name__ == "__main__":`
+
+when running the file, the `__name__` variable is always `__main__` but when the file is imported into another file, the `__name__` variable is the file name.
 
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}

@@ -58,4 +58,24 @@ avg_score_rounded = int(avg_score)
 ```
 ![Type casting](/assets/images/courses/mastering-python/how-to-0006-ss-001.JPG){: .align-center}
 
+## How-To #3: Create custom modules
+
+You can import from your own code. Syntax to import a custom module is the same as importing a built-in module. A custom module is nothing but a file name. To import the custom module, import the name of the python file.
+
+For example, let's say you have 2 python files:
+1. `bananas.py`
+      * with the methods `peel()` and `dip_in_chocolate()`
+2. `apples.py`
+      * with the methods `offer()` and `bake()`
+
+Now, if you want to use these methods in a 3rd file called `fruits.py`, you can import `bananas.py` and `apples.py` as follows:
+
+```python
+from bananas import dip_in_chocolate as dip
+import apples
+print(apples.offer())
+print(dip())
+```
+
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}

@@ -24,4 +24,8 @@ excerpt: "This page contains a list of other external resources that I came acro
 * [UCI resource](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 * [bradfieldcs.com](https://bradfieldcs.com/algos/analysis/performance-of-python-types/)
 
+### Python Modules
+* [Python Documentation](https://docs.python.org/3/py-modindex.html)
+* [The Python Package Index](https://pypi.python.org/pypi)
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
