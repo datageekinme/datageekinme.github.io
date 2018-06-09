@@ -12,7 +12,9 @@ excerpt: "Retail Data Analysis in Apache Zeppelin using MySQL, Apache Sqoop and 
 
 ### An analysis of retail data in Apache Zeppelin using MySQL, Apache Sqoop and Apache Hive
 
-NOTE: This Zeppelin notebook is not interactive at the moment. It's just an already run copy published to ZEPL.
+[Link to the Notebook on Zepl.com](https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24)
+
+NOTE: This Zeppelin notebook is not interactive at the moment. It's just an already run copy on my local Mac, published to ZEPL. {: .notice--info}
 
 <iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24" scrolling="no" frameborder="0" height="7175" width="100%"></iframe>
 

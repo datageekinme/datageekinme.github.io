@@ -6,7 +6,7 @@ main:
     url: /about/
   - title: "Courses"
     url: /courses/
-  - title: "portfolio"
+  - title: "Portfolio"
     url: /portfolio/
   # - title: "Sample Posts"
   #   url: /year-archive/
