@@ -117,6 +117,5 @@ else:
 
 ![sample output](/assets/images/courses/mastering-python/how-to-0004-ss-03.JPG){: .align-center}
 
-<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" height="" width=""></iframe>
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
