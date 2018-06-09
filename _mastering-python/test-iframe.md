@@ -9,7 +9,7 @@ classes: wide
 excerpt: "A collection of How-To's for Mastering Python"
 ---
 
-<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" width="100%" onload="this.height=screen.height;"></iframe>
+<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" scrolling="no" frameborder="0" style="position: relative; height: 100%; width: 100%;"></iframe>
 
 
 
