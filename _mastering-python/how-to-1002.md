@@ -115,6 +115,6 @@ else:
     print(f"Sorry, I don't have any jokes about {term}! Please try again.")
 ```
 
-![sample output](/assets/images/courses/mastering-python/how-to-0003-ss-03.JPG){: .align-center}
+![sample output](/assets/images/courses/mastering-python/how-to-0004-ss-03.JPG){: .align-center}
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
