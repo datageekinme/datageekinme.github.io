@@ -16,7 +16,7 @@ excerpt: "Retail Data Analysis in Apache Zeppelin using MySQL"
 
 NOTE: This Zeppelin notebook is not interactive at the moment. It's just an already run copy on my local Mac, published to ZEPL. {: .notice--info}
 
-<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS8xZWY2MGIxNDU0OGU0MzEwYThmNjY0NTIzM2M1NzU0My9ub3RlLmpzb24" scrolling="no" frameborder="0" height="6000" width="100%"></iframe>
+<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS8xZWY2MGIxNDU0OGU0MzEwYThmNjY0NTIzM2M1NzU0My9ub3RlLmpzb24" scrolling="no" frameborder="0" height="6500" width="100%"></iframe>
 
 
 
