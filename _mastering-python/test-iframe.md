@@ -8,11 +8,8 @@ header:
 classes: wide
 excerpt: "A collection of How-To's for Mastering Python"
 ---
-<script type="text/javascript" language="javascript">
-$('.myIframe').css('height', $(window).height()+'px');
-</script>
 
-<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" width="100%" class="myIFrame"></iframe>
+<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" width="100%" onload="this.width=screen.width;this.height=screen.height;"></iframe>
 
 
 
