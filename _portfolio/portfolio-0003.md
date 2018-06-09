@@ -1,11 +1,11 @@
 ---
-title: "Portfolio"
+title: "Apache Pig - Chicago Crime Data"
 permalink: /portfolio/zepl-0003/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 255, 255, 0.5)
   teaser: "/assets/images/portfolio/portfolio-00003.JPG"
-excerpt: "Chicago Crime Data Analysis in Apache Zeppelin using Apache Pig"
+excerpt: "Chicago Crime Data Preparation and Analysis in Apache Zeppelin using Apache Pig"
 ---
 
 ## Chicago Crime Data Analysis

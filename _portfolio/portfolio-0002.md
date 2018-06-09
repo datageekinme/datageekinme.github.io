@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "MySQL - Retail Data"
 permalink: /portfolio/zepl-0002/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"

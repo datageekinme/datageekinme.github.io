@@ -1,11 +1,11 @@
 ---
-title: "Portfolio"
+title: "Apache Sqoop & Apache Hive - Retail Data"
 permalink: /portfolio/zepl-0001/
 header:
   overlay_image: "/assets/images/logo/overlay-image.png"
   overlay_filter: rgba(0, 255, 255, 0.5)
   teaser: "/assets/images/portfolio/portfolio-00001.JPG"
-excerpt: "Retail Data Analysis in Apache Zeppelin using MySQL, Apache Sqoop and Apache Hive"
+excerpt: "Retail Data Preparation and Analysis in Apache Zeppelin using MySQL, Apache Sqoop and Apache Hive"
 ---
 
 ## Retail Data Analysis
