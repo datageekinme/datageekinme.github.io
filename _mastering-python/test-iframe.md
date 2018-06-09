@@ -9,6 +9,6 @@ classes: wide
 excerpt: "A collection of How-To's for Mastering Python"
 ---
 
-<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" height="5000" width="1000"></iframe>
+<iframe src="https://www.zepl.com/viewer/notebooks/bm90ZTovL2RhdGFnZWVraW5tZS9jOGY4MGQ3NjFjY2Y0MDZjOWRkNDgzODAyYTc4ZWExNi9ub3RlLmpzb24?asIframe" height="100%" width="100%"></iframe>
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
