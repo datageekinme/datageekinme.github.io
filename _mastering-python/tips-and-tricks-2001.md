@@ -9,7 +9,7 @@ toc: true
 excerpt: "A collection of tips and tricks for Mastering Python"
 ---
 
-## Tip # 1: Difference between `is` and `==` operators
+## Tip #1: Difference between `is` and `==` operators
 
 **Example 1:**
 ```python
@@ -26,7 +26,7 @@ a is b # False ==>
 ```
 `is` operator checks if the reference to the object the same, not the value.
 
-## Tip # 2: Data entered through `input` is always of string type
+## Tip #2: Data entered through `input` is always of string type
 
 The data entered through console `input` command is in string type. Always remember to type cast to the data type that the evaluation happens on.
 
@@ -42,7 +42,7 @@ To make sure it evaluates, always remember to type cast to the data type that yo
 1. Entered age is an integer
 2. Age is entered and not an empty string
 
-## Tip # 3: Tricks with slices
+## Tip #3: Tricks with slices
 
 ### Reversing lists / strings
 
@@ -69,7 +69,7 @@ To make sure it evaluates, always remember to type cast to the data type that yo
 [1, 'x', 'y', 'z', 4, 5, 6]
 ```
 
-## Tip # 4: Swapping Values in a list
+## Tip #4: Swapping Values in a list
 
 ```python
 >>> myList = ["Data", "Geek"]
@@ -78,7 +78,7 @@ To make sure it evaluates, always remember to type cast to the data type that yo
 ['Geek', 'Data']
 ```
 
-## Tip # 5: Difference between `capitalize` and `title` string functions
+## Tip #5: Difference between `capitalize` and `title` string functions
 
 The difference between string.capitalize() vs string.title() is:
 
@@ -95,7 +95,7 @@ The difference between string.capitalize() vs string.title() is:
 'Hello World'
 ```
 
-## Tip # 6: Getting a sum of all values in a dictionary
+## Tip #6: Getting a sum of all values in a dictionary
 
 The below example shows a simple way of being able to calculate the total sum of all donations without using a for loop to iterate through the dictionary.
 
@@ -107,7 +107,7 @@ dict_values([25.0, 88.99, 13.0, 99.5, 150.0, 50.25, 10.0])
 436.74
 ```
 
-## Tip # 7: `range` vs. `xrange`
+## Tip #7: `range` vs. `xrange`
 
 ### `range`
 The `range` type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in `for` loops.
@@ -129,7 +129,7 @@ Similar to `range` i.e. generates a sequence of numbers. `xrange` does not actua
 
 NOTE: `xrange` does not exist in Python 3. `range` does what `xrange` used to do in Python 2.
 
-## Tip # 8: Rock paper scissors using the `random` module
+## Tip #8: Rock paper scissors using the `random` module
 
 ### Option 1 - Using `randint`:
 ```python
@@ -190,7 +190,7 @@ else:
 
 **NOTE:** Not handling invalid values to keep it simple
 
-## Tip # 9: Generator Expressions vs List Comprehensions
+## Tip #9: Generator Expressions vs List Comprehensions
 
 List comprehensions are better when you want to iterate over something multiple times. However, it's also worth noting that you should use a list if you want to use any of the list methods.
 
@@ -213,7 +213,7 @@ Some good external resources to explain the same:
 * [code-maven.com](https://code-maven.com/list-comprehension-vs-generator-expression)
 * [medium.freecodecamp.org](https://medium.freecodecamp.org/python-list-comprehensions-vs-generator-expressions-cef70ccb49db)
 
-## Tip # 10: Different ways to import modules
+## Tip #10: Different ways to import modules
 
 * `import random`
 * `import random as rand`
@@ -221,7 +221,7 @@ Some good external resources to explain the same:
 * `from random import choice, shuffle, randint`
 * `from random import choice as c, shuffle as s`
 
-## Tip # 11: Avoid running a block of code on import
+## Tip #11: Avoid running a block of code on import
 
 By default, when you import a module, it executes the code. If you want to avoid a block of code from executing on import, you can add that part of the code under the following:
 
@@ -229,5 +229,12 @@ By default, when you import a module, it executes the code. If you want to avoid
 
 when running the file, the `__name__` variable is always `__main__` but when the file is imported into another file, the `__name__` variable is the file name.
 
+## Tip #12: Difference between `_name`, `__name` and `__name__`
+
+`_name`: This is supposed to be a private variable or method. Specifies that the variable/method should not be used outside of the class.
+
+`__name`: Not conventional, does something behind the scenes. This is known as name mangling, by putting a double underscore before the variable name, python mangles the name. For example, for class `User`, if `__ssn` is used as a variable, it gets mangled to `_User__ssn`
+
+`__name__`: magic methods. Usually do not create own "dunder" methods
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
