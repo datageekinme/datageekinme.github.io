@@ -286,10 +286,21 @@ defaults:
       layout: single
       author_profile: true
       comment: false
-
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      comment: false
+      classes: wide
 
 # Collections
 collections:
   mastering-python:
+    output: true
+    permalink: /:collection/:path
+  portfolio:
     output: true
     permalink: /:collection/:path
