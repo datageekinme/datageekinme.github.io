@@ -117,5 +117,129 @@ else:
 
 ![sample output](/assets/images/courses/mastering-python/how-to-0004-ss-03.JPG){: .align-center}
 
+## How-To #5: Leveraging documentation of the decorated function
+
+Running the following code does not print the help of the function we are actually calling.
+```python
+def be_polite(func):
+  def wrapper():
+    """I am a wrapper function"""
+    print("What a pleasure to meet you!")
+    func()
+    print("Have a great day!")
+  return wrapper
+
+@be_polite
+def greet():
+  """This function is used to greet a person"""
+  print("I am a Data Geek")
+
+help(greet)
+```
+Output:
+
+```powershell
+PS C:\Users\datag\Desktop\python-practice-code> python .\decorators.py
+Help on function wrapper in module __main__:
+
+wrapper()
+    I am a wrapper function
+
+PS C:\Users\datag\Desktop\python-practice-code>
+```
+
+In order to fix this, we can use the `wraps` method from the `functools` module as follows:
+
+```python
+from functools import wraps
+def be_polite(func):
+  @wraps(func)
+  def wrapper():
+    """I am a wrapper function"""
+    print("What a pleasure to meet you!")
+    func()
+    print("Have a great day!")
+  return wrapper
+
+@be_polite
+def greet():
+  """This function is used to greet a person"""
+  print("I am a Data Geek")
+
+help(greet)
+```
+Output:
+
+```powershell
+PS C:\Users\datag\Desktop\python-practice-code> python .\decorators.py
+Help on function greet in module __main__:
+
+greet()
+    This function is used to greet a person
+
+PS C:\Users\datag\Desktop\python-practice-code>
+```
+
+## How-To #5: Speed testing a function using decorators
+
+The following is a basic way of speed testing a function using decorators and `time` module.
+
+NOTE: There are better ways of estimating the time taken, this is just a basic sample. Also, this test was run on my windows desktop PC. 
+
+```python
+from time import time
+from functools import wraps
+
+def speed_test(func):
+  @wraps(func)
+  def wrapper(*args, **kwargs):
+    start_time = time()
+    result = func(*args, **kwargs)
+    end_time = time()
+    print("Time elapsed: {0}".format(end_time-start_time))
+    return result
+  return wrapper
+
+@speed_test
+def sum_nums_gen(max):
+  return sum(x for x in range(max)) # using generator
+
+@speed_test
+def sum_nums_list(max):
+  return sum([x for x in range(max)]) # using list comprehension
+
+print(sum_nums_gen(10000000)) # 10 Million
+print(sum_nums_list(10000000)) # 10 Million
+
+print(sum_nums_gen(100000000)) # 100 Million
+print(sum_nums_list(100000000)) # 100 Million
+```
+Output for sum of numbers from 1 to 10 Million:
+```powershell
+PS C:\Users\datag\Desktop\python-practice-code> python .\speed_test.py
+Time elapsed: 0.9465005397796631
+49999995000000
+Time elapsed: 0.9793457984924316
+49999995000000
+```
+Output for sum of numbers from 1 to 100 Million:
+
+Failed on my computer with MemoryError when using list comprehension. However, completed in around 10 seconds with a generator.
+
+```powershell
+Time elapsed: 9.8843355178833
+4999999950000000
+Traceback (most recent call last):
+  File ".\speed_test.py", line 23, in <module>
+    print(sum_nums_list(100000000)) # 100 Million
+  File ".\speed_test.py", line 8, in wrapper
+    result = func(*args, **kwargs)
+  File ".\speed_test.py", line 20, in sum_nums_list
+    return sum([x for x in range(max)]) # using list comprehension
+  File ".\speed_test.py", line 20, in <listcomp>
+    return sum([x for x in range(max)]) # using list comprehension
+MemoryError
+```
+
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}

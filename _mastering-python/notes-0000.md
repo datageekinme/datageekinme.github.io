@@ -402,6 +402,52 @@ Another example of using generators to save memory usage:
 
 # numbers .......................
 ```
+## Decorators
+
+* Decorators are Functions
+* Decorators wrap other functions and enhance their behavior
+* Decorators are examples of higher order Functions
+* Decorators have their own syntax, using `@`
+* Higher Order functions:
+  * Functions that take in another function as a parameter
+  * Functions that return another function
+
+Example:
+Below are 2 ways of using decorators:
+1. Without the `@` syntax:
+
+```python
+def be_polite(func):
+  def wrapper():
+    print("What a pleasure to meet you!")
+    func()
+    print("Have a great day!")
+  return wrapper
+
+def greet():
+  print("I am a Data Geek")
+
+# below is decorating a function without using the `@` syntax
+greet = be_polite(greet)
+greet()
+```
+
+2. Using the `@` syntax:
+
+```python
+def be_polite(func):
+  def wrapper():
+    print("What a pleasure to meet you!")
+    func()
+    print("Have a great day!")
+  return wrapper
+
+@be_polite
+def greet():
+  print("I am a Data Geek")
+
+greet()
+```
 
 
 
