@@ -9,36 +9,34 @@ toc: true
 excerpt: "Glossary of terms in Python"
 ---
 
-## Glossary
-
-### Dynamic Typing
+## Dynamic Typing
 **Python is highly flexible about reassigning variables to different types. This is called as dynamic typing as variables can change types readily.**
 
 Languages such C++ and Java are **statically-typed** and variables are stuck with their original assigned data type.
 
 ![Dynamic Typing](/assets/images/courses/mastering-python/notes-0000-ss-001.JPG){: .align-center}
 
-### Parameters vs. Arguments
+## Parameters vs. Arguments
 
 With respect to functions in Python, a parameter is a variable in a method definition whereas arguments are the data you pass into the method's parameters.
 
 **Parameter** is variable in the declaration of function and **Argument** is the actual value of this variable that gets passed to a function.
 
-### Encapsulation vs. Abstraction
+## Encapsulation vs. Abstraction
 
 Encapsultaion: Grouping of public and private attributes and methods into a programmatic class, making abstraction possible
 
 Abstraction: Exposing only relevant data in a class interface, hiding private attributes and methods from users
 
-### `self` keyword
+## `self` keyword
 
 The `self` keyword refers to the current class instance. `self` must always be the first parameter to `__init__` and any methods or properties on class instances.
 
-### `__repr__` method in a class
+## `__repr__` method in a class
 
 By default, the representation of a class will show the type of the object instance and the address of the object. To override this with a meaningful representation, we can use the `__repr__ ` method.
 
-### Inheritance
+## Inheritance
 
 A key feature of object oriented programming is the ability to define a class which inherits from another class i.e. a "base" or "parent" class. Example, a base class could be 'User' with classes like specific roles i.e. 'Administrator', 'Developer', 'Analyst' inheriting attributes and methods of the 'User' class.
 
@@ -54,7 +52,7 @@ class Administrator(User):
   pass
 ```
 
-### Introduction to `super()`
+## Introduction to `super()`
 
 Inheritance Example Using Super()
 
@@ -85,7 +83,7 @@ blue = Cat("Blue","Scottish Fold", "String")
 blue.play()
 ```
 
-### Multiple Inheritance
+## Multiple Inheritance
 
 In case of multiple inheritance, if using the keyword `super()` to run the `__init__`, it will pick the first class that is passed in the arguments. In the below example, 'Penguin' class's super will refer to 'Ambulatory' class. But, Penguin will have access to all the methods and attributes of both 'Ambulatory' and 'Aquatic' classes.
 
@@ -103,7 +101,7 @@ class Penguin(Ambulatory, Aquatic):
   pass
 ```
 
-### Method Resolution Order (MRO)
+## Method Resolution Order (MRO)
 
 Whenever you create a class, Python automatically sets a **Method Resolution Order** or **MRO** for that class, which is the order in which Python will look for methods on instances of that class.
 
@@ -116,7 +114,7 @@ Programmatically MRO can be referenced in 3 ways:
 
 ![MRO references](/assets/images/courses/mastering-python/notes-0000-ss-002.JPG){: .align-center}
 
-### Properties in a class
+## Properties in a class
 
 Example:
 
@@ -160,7 +158,7 @@ print(jane.full_name)
 print(jane.__dict__)
 ```
 
-### Polymorphism
+## Polymorphism
 
 A key principle of object oriented programming is the idea of polymorphism i.e. an object can take on many (poly) forms (morph).
 
@@ -175,6 +173,68 @@ Following are 2 important practical applications:
 
 Example of a magic method is 'len' ==> `__len__` or '+' ==> `__add__`
 
+## Iterator vs. Iterable
 
+* Iterator - an object that can be iterated upon. An object which returns data, one element at a time when the `next()` method is called on it.
+
+* Iterable - An object which will return an `Iterator` when `iter()` method is called on it.
+
+`iter()` returns an **iterator** on a **iterable** object.
+
+Example:
+
+`"HELLO"` is an iterable, but it is not an iterator. `iter("HELLO")` returns an iterator.
+
+```python
+>>> name = "Curry"
+
+>>> next(name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not an iterator
+
+>>> it = iter(name)
+>>> it
+<str_iterator object at 0x03375650>
+
+>>> next(it)
+'C'
+>>> next(it)
+'u'
+>>> next(it)
+'r'
+>>> next(it)
+'r'
+>>> next(it)
+'y'
+```
+
+```python
+>>> nums = [1, 2, 3, 4, 5]
+
+>>> next(nums)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not an iterator
+
+>>> it = iter(nums)
+>>> it
+<list_iterator object at 0x03375610>
+
+>>> next(it)
+1
+>>> next(it)
+2
+>>> next(it)
+3
+>>> next(it)
+4
+>>> next(it)
+5
+>>> next(it)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+```
 
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
