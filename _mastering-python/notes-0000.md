@@ -237,4 +237,172 @@ Traceback (most recent call last):
 StopIteration
 ```
 
+## Generators
+
+* Generators are iterators
+* Generators can be created with generator functions
+* Generator functions use the yield keyword
+* Generators can be created with generator expressions
+
+
+### Functions vs. Generator Functions
+
+| Functions | Generator Functions |
+|---|---|
+| Uses `return` | Uses `yield` |
+| returns once | can yield multiple times |
+| when invoked, returns the return value | When invoked, returns a generator |
+
+Example:
+
+If you write a function and put `yield` in it, it returns a generator object. It keeps track of the state. It pauses after the `yield` is called until the `next()` is called. It takes up less memory as a result.
+
+```python
+>>> def count_up_to(max):
+...   count = 1
+...   while count <= max:
+...     yield count
+...     count += 1
+...
+
+>>> counter = count_up_to(5)
+>>> counter
+<generator object count_up_to at 0x0362B2D0>
+
+>>> next(counter)
+1
+>>> next(counter)
+2
+>>> next(counter)
+3
+>>> next(counter)
+4
+>>> next(counter)
+5
+>>> next(counter)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+```
+
+The `__iter__` and `__next__` functions are already defined. This can be checked by using the `help` method.
+
+```python
+>>> help(counter)
+Help on generator object:
+
+count_up_to = class generator(object)
+ |  Methods defined here:
+ |
+ |  __del__(...)
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __iter__(self, /)
+ |      Implement iter(self).
+ |
+ |  __next__(self, /)
+ |      Implement next(self).
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  close(...)
+ |      close() -> raise GeneratorExit inside generator.
+ |
+ |  send(...)
+ |      send(arg) -> send 'arg' into generator,
+ |      return next yielded value or raise StopIteration.
+ |
+ |  throw(...)
+ |      throw(typ[,val[,tb]]) -> raise exception in generator,
+ |      return next yielded value or raise StopIteration.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  gi_code
+ |
+ |  gi_frame
+ |
+ |  gi_running
+ |
+ |  gi_yieldfrom
+ |      object being iterated by yield from, or None
+```
+
+Another example:
+
+```python
+>>> def yes_or_no():
+...     answer = "yes"
+...     while True:
+...         yield answer
+...         answer = "no" if answer == "yes" else "yes"
+...
+>>> gen = yes_or_no()
+>>> next(gen)
+'yes'
+>>> next(gen)
+'no'
+>>> next(gen)
+'yes'
+>>> next(gen)
+'no'
+>>> next(gen)
+'yes'
+>>> next(gen)
+'no'
+>>> next(gen)
+'yes'
+```
+
+Another example of using generators to save memory usage:
+
+```python
+>>> def fib_gen(max):
+...     x = 0
+...     y = 1
+...     count = 0
+...     while count < max:
+...         yield x
+...         x, y = y, x + y
+...         count+=1
+...
+
+>>> fib = fib_gen(1000000)
+>>> next(fib)
+0
+>>> next(fib)
+1
+>>> next(fib)
+1
+>>> next(fib)
+2
+>>> next(fib)
+3
+>>> next(fib)
+5
+>>> next(fib)
+8
+>>> next(fib)
+13
+>>> next(fib)
+21
+>>> next(fib)
+34
+>>> next(fib)
+55
+
+# to continuously print 1000000 fibonacci numbers:
+>>> for n in fib_gen(1000000):
+...    print(n)
+...
+
+# numbers .......................
+```
+
+
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
