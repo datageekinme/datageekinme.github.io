@@ -237,4 +237,15 @@ when running the file, the `__name__` variable is always `__main__` but when the
 
 `__name__`: magic methods. Usually do not create own "dunder" methods
 
+## Tip #13: Writing CSV Files
+
+When opening CSV files in write mode, always use the newline parameter as follows:
+
+`open(file, 'w', newline="")`
+
+The csv.writer writes **\r\n** into the file directly. In Windows text mode, it will translate each **\n** into **\r\n** and will write **\r\r\n**.
+
+Another option is to write in binary mode, but will need to convert string to byte-like object.
+
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
