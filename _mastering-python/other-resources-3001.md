@@ -28,4 +28,9 @@ excerpt: "This page contains a list of other external resources that I came acro
 * [Python Documentation](https://docs.python.org/3/py-modindex.html)
 * [The Python Package Index](https://pypi.python.org/pypi)
 
+### Regular Expressions
+* [Python Documentation](https://docs.python.org/3/library/re.html)
+* [Cheatsheet](http://www.rexegg.com/regex-quickstart.html)
+* [Python Regular Expression Editor](https://pythex.org/)
+
 [Mastering Python - Home](/mastering-python/){: .btn .btn--primary .btn--large}{: .align-center}
