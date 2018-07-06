@@ -2,10 +2,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
-  - title: "Courses"
-    url: /courses/
+  # - title: "About"
+  #  url: /about/
+  # - title: "Courses"
+  #  url: /courses/
   - title: "Portfolio"
     url: /portfolio/
   # - title: "Sample Posts"
