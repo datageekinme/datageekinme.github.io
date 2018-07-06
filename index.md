@@ -1,8 +1,6 @@
 ---
 layout: splash
 permalink: /
-header:
-  image: "/assets/images/logo/cover-photo.png"
 
 ---
 
