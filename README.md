@@ -1,3 +1,3 @@
-# [Data Geek In Me](https://datageekinme.github.io/)
+# Data Geek In Me
 
 Moved this website to https://datageekinme.com
